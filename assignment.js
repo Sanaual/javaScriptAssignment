@@ -53,7 +53,7 @@ function brickCalculator(floor){
 
 // this function is for tiny friend
 function tinyFriend(name){
-    var minName = friendsName[0].length;
+    var minName = name[0].length;
 
     for(var i = 0; i <name.length; i++){
         var element = name[i]
